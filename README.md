@@ -7,7 +7,6 @@ item listing with filtering, search, pagination, shopping cart functionality, an
 
 ## 🌐 Live Demo
 
-- **Frontend (GitHub Pages)**: [🔗 View Live Site](https://abdallaskar.github.io/sakrResturnt)
 - **Source Code**: [🔗 GitHub Repository](https://github.com/abdallaskar/sakrResturnt)
 
 ---
