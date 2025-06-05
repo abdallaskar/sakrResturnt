@@ -5,69 +5,97 @@ item listing with filtering, search, pagination, shopping cart functionality, an
 
 ---
 
-## 🌐 Live Demo
+## 🌐 Live Demo# 🍽️ Sakr Restaurant - Full-Stack React App
 
-- **Source Code**: [🔗 GitHub Repository](https://github.com/abdallaskar/sakrResturnt)
+A modern and responsive restaurant web application built with **React** and **TailwindCSS**, using **JSON Server** and **json-server-auth** as a mock backend for authentication and data storage.
 
 ---
 
-## ✨ Features
+## 🌐 Live Demo
 
-### 🧑‍💼 Authentication
-- Register as user or admin
-- Login and protected routes
+- 🔗 **Frontend (GitHub Pages)**: [https://abdallaskar.github.io/sakrResturnt](https://abdallaskar.github.io/sakrResturnt)
+- 🔗 **GitHub Repository**: [https://github.com/abdallaskar/sakrResturnt](https://github.com/abdallaskar/sakrResturnt)
 
-### 🛍️ User Features
-- View all restaurant items
-- Filter by category
-- Search by name
-- Paginated items list
-- Add items to cart
-- Increase/decrease item quantity
-- Remove items from cart
-- View total cart amount
+---
 
-### 🛠️ Admin Features
-- Access to admin panel
-- Add new items
-- Edit items
-- Delete items
+## 🎥 YouTube Videos
 
-### 📄 Pages
-- Home
-- Login / Register
-- About
-- Items List
-- Cart
-- Admin Panel (Admin only)
+- 📺 [Video 1 – Full App Demo (Pages Overview)](https://youtu.be/YOUR_VIDEO_DEMO_LINK)
+- 📺 [Video 2 – Code Walkthrough & Explanation](https://youtu.be/YOUR_CODE_VIDEO_LINK)
 
 ---
 
 ## 🧰 Tech Stack
 
-| Technology         | Description                       |
-|--------------------|-----------------------------------|
-| **React**          | UI Library                        |
-| **React Router v7**| Page Routing                      |
-| **TailwindCSS**    | Utility-first CSS framework       |
-| **DaisyUI**        | UI components for Tailwind        |
-| **Formik**         | Forms and validation              |
-| **React Toastify** | Toast notifications               |
-| **Lucide React**   | Icons                             |
-| **JSON Server**    | Mock backend with REST API        |
-| **json-server-auth** | Simple authentication and roles |
+| Tech                | Description                      |
+|---------------------|----------------------------------|
+| React 19            | Frontend framework               |
+| React Router v7     | SPA navigation                   |
+| TailwindCSS & DaisyUI | Utility-first CSS + UI components |
+| JSON Server         | Mock RESTful backend             |
+| json-server-auth    | Simple role-based authentication |
+| Formik              | Form handling and validation     |
+| React Toastify      | Notifications                    |
+| Lucide React        | Icon library                     |
 
 ---
 
-## 📦 Project Structure
+## ✨ Features
+
+### 👥 Authentication
+- Register and Login for users and admins
+- JWT-based authentication via `json-server-auth`
+
+### 🛍️ Users
+- View item list with:
+  - 🔍 Search
+  - 🧮 Pagination
+  - 🧩 Category filtering
+- Add items to cart
+- Update quantity (+ / -)
+- Delete items from cart
+- View total amount
+
+### 🛠️ Admin
+- Admin panel with full CRUD operations:
+  - ➕ Add new items
+  - ✏️ Edit items
+  - 🗑️ Delete items
+
+### 📄 Pages
+- Home
+- About
+- Register
+- Login
+- Items List
+- Cart
+- Admin Dashboard
+
+---
+
+## 📷 Screenshots
+
+> Add screenshots in the `screenshots/` folder and update the paths below.
+
+
+![Home](./screenShoots/Screenshot3.jpg)
+
+
+![Items](./screenShoots/Screenshot6.jpg)
+
+![Cart](./screenShoots/Screenshot9.jpg)
+
+![Cart](./screenShoots/Screenshot12.jpg)
+
+---
+
+## 📁 Project Structure
 
 ```bash
 sakrResturnt/
-├── client/         # React App
-│   ├── public/
+├── client/         # React frontend
 │   ├── src/
-│   └── package.json
-├── server/         # JSON Server with Auth
-│   ├── db.json
-│   └── ...
+│   └── public/
+├── server/         # JSON server backend
+│   └── db.json
 └── README.md
