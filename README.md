@@ -11,17 +11,14 @@ A modern and responsive restaurant web application built with **React** and **Ta
 
 ---
 
-## 🌐 Live Demo
-
-- 🔗 **Frontend (GitHub Pages)**: [https://abdallaskar.github.io/sakrResturnt](https://abdallaskar.github.io/sakrResturnt)
 - 🔗 **GitHub Repository**: [https://github.com/abdallaskar/sakrResturnt](https://github.com/abdallaskar/sakrResturnt)
 
 ---
 
 ## 🎥 YouTube Videos
 
-- 📺 [Video 1 – Full App Demo (Pages Overview)](https://youtu.be/YOUR_VIDEO_DEMO_LINK)
-- 📺 [Video 2 – Code Walkthrough & Explanation](https://youtu.be/YOUR_CODE_VIDEO_LINK)
+- 📺 [Video 1 – Full App Demo (Pages Overview)](https://www.youtube.com/watch?v=dkXBIC_2H-8)
+- 📺 [Video 2 – Code Walkthrough & Explanation](https://www.youtube.com/watch?v=MRw4ayk3IMM)
 
 ---
 
