@@ -1,60 +1,74 @@
-# 🛒 Sark Resturnt 
-#  React E-Commerce App (with Admin Panel & Auth)
+# 🍽️ Sakr Restaurant - React E-Commerce App
 
-This is a full-featured **React E-Commerce web application** with user and admin roles.     
-It includes login/register functionality, item listing with filtering, pagination, cart system, and an admin panel for managing products.
+A simple full-stack restaurant web app built with **React** and **JSON Server**. This app supports authentication (user/admin),      
+item listing with filtering, search, pagination, shopping cart functionality, and an admin panel for managing products.
 
 ---
 
-## 🚀 Features
+## 🌐 Live Demo
 
-### 🔐 Authentication
-- Register / Login using **Formik** forms
-- Role-based access (User / Admin)
-- Protected Routes with **React Router**
+- **Frontend (GitHub Pages)**: [🔗 View Live Site](https://abdallaskar.github.io/sakrResturnt)
+- **Source Code**: [🔗 GitHub Repository](https://github.com/abdallaskar/sakrResturnt)
 
-### 🛍️ User Pages
-- **Home Page** – Featured content and navigation
-- **Items List** – View all products with:
-  - 🔍 Search
-  - 🔃 Filter by category
-  - 📄 Pagination
-- **Cart Page**
-  - View cart items
-  - Increase/decrease quantity
-  - Delete from cart
-  - Display total amount
-- **About Page**
+---
 
-### 🛠️ Admin Panel
+## ✨ Features
+
+### 🧑‍💼 Authentication
+- Register as user or admin
+- Login and protected routes
+
+### 🛍️ User Features
+- View all restaurant items
+- Filter by category
+- Search by name
+- Paginated items list
+- Add items to cart
+- Increase/decrease item quantity
+- Remove items from cart
+- View total cart amount
+
+### 🛠️ Admin Features
+- Access to admin panel
 - Add new items
-- Edit existing items
-- Delete items from the product list
-- Admin-only access
+- Edit items
+- Delete items
+
+### 📄 Pages
+- Home
+- Login / Register
+- About
+- Items List
+- Cart
+- Admin Panel (Admin only)
 
 ---
 
-## 🧩 Technologies Used
+## 🧰 Tech Stack
 
-### 🧠 Frontend
-- **React 19**
-- **React Router v7**
-- **TailwindCSS v4**
-- **DaisyUI** (UI Components)
-- **Formik** (Forms & Validation)
-- **React Toastify** (Notifications)
-- **Lucide React** (Icons)
-
-### 🗄️ Backend (Local only)
-- **JSON Server**
-- **json-server-auth** for role-based auth (admin/user)
-- Data is stored in `db.json`
+| Technology         | Description                       |
+|--------------------|-----------------------------------|
+| **React**          | UI Library                        |
+| **React Router v7**| Page Routing                      |
+| **TailwindCSS**    | Utility-first CSS framework       |
+| **DaisyUI**        | UI components for Tailwind        |
+| **Formik**         | Forms and validation              |
+| **React Toastify** | Toast notifications               |
+| **Lucide React**   | Icons                             |
+| **JSON Server**    | Mock backend with REST API        |
+| **json-server-auth** | Simple authentication and roles |
 
 ---
 
-## 📦 Installation & Usage
-
-### 1. Clone the repo
+## 📦 Project Structure
 
 ```bash
-git clone https://github.com/abdallaskar/sakrResturnt
+sakrResturnt/
+├── client/         # React App
+│   ├── public/
+│   ├── src/
+│   └── package.json
+├── server/         # JSON Server with Auth
+│   ├── db.json
+│   └── ...
+└── README.md
