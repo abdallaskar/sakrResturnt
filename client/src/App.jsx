@@ -226,7 +226,7 @@ export default function App() {
           />
           <Route path="/game" element={<Game />} />
           <Route
-            path="/menu"
+            path="/"
             element={
               <MenuList
                 paginatedProducts={paginatedProducts}

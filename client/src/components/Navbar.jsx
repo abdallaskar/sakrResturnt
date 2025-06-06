@@ -204,7 +204,7 @@ export default function Navbar({ CartItems, handleSearchChange, searchQuery }) {
           {/* Logo/Brand */}
           <div className="flex-shrink-0">
             <Link
-              to="/menu"
+              to="/"
               className="text-slate-100 text-2xl font-bold hover:text-emerald-400 transition-colors duration-200 tracking-wide flex items-center space-x-2">
               <span className="text-emerald-500">🍽️</span>
               <span>Sakr</span>
