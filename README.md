@@ -12,6 +12,7 @@ A modern and responsive restaurant web application built with **React** and **Ta
 ---
 
 - 🔗 **GitHub Repository**: [https://github.com/abdallaskar/sakrResturnt](https://github.com/abdallaskar/sakrResturnt)
+- 🔗 **Live Demo**: [https://github.com/abdallaskar/sakrResturnt](https://sakr-resturnt-3csl.vercel.app/menu)
 
 ---
 
