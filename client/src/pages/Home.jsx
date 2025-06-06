@@ -17,7 +17,7 @@ export default function Home() {
   ];
 
   const orderClickHandler = () => {
-    navigate('/menu');
+    navigate('/');
   };
   return (
     <div className="min-h-screen bg-white">

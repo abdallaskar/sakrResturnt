@@ -9,7 +9,7 @@ function Cart({ incHandler, decHandler, resetHandler, CartItems, handledeletprod
   const totalPrice = CartItems.reduce((total, item) => total + item.price * item.quantity, 0);
 
   const orderClickHandler = () => {
-    navigate('/menu');
+    navigate('/');
   };
   return (
     <div className="min-h-screen bg-blue-50 p-6">
